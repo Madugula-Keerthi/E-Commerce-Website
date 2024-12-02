@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Category from './components/Category';
+import Category from './Category';
 import Home from './Home';
-import Addcart from './components/Addcart';
-import CRUD from './components/CRUD';
-import DELETE from './components/delete';
-import UPDATE from './components/update';
-import Fruit from './components/fruit';
-import Cooldrinks from './components/cooldrinks';
-import Meat from './components/meat';
-import Vegetables from './components/vegetables';
-import Dairyproducts from './components/dairyproducts';
-import Pantry from './components/pantry';
-import Snacks from './components/snacks';
+import Addcart from './Addcart';
+import CRUD from './CRUD';
+import DELETE from './Delete';
+import UPDATE from './Update';
+import Fruit from './Fruit';
+import Cooldrinks from './Cooldrinks';
+import Meat from './Meat';
+import Vegetables from './Vegetables';
+import Dairyproducts from './Dairyproducts';
+import Pantry from './Pantry';
+import Snacks from './Snacks';
 
 const App = () => {
   const [cart, setCart] = useState([]); // State to manage the cart items
@@ -51,4 +51,3 @@ const App = () => {
 };
 
 export default App;
-
